@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4"
+    tools:ignore="HardcodedText" >
+
+    <LinearLayout
+        android:id="@+id/liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+		android:paddingBottom="50dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/operamini"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/rateus2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="#241823"
+                android:text="@string/rate_us"
+                android:drawableLeft="@drawable/ic_star"
+			    android:drawablePadding="2dip"
+			    android:paddingLeft="30dip"
+			    android:paddingRight="26dip"
+			    android:singleLine="true"
+                android:textColor="@color/menuTextcolor"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/play2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="#260216"
+                android:text="@string/share_it"
+                android:drawableLeft="@drawable/ic_share"
+			    android:drawablePadding="2dip"
+			    android:paddingLeft="30dip"
+			    android:paddingRight="26dip"
+			    android:singleLine="true"                
+                android:textColor="@color/menuTextcolor"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewtest"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp"
+	        android:paddingTop="8dp"
+            android:dividerHeight="6dp"
+            android:divider="#f4f4f4"
+	        android:background="#f4f4f4"
+            tools:ignore="InefficientWeight"
+        	>
+        </ListView> 
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/unitads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

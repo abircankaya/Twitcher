@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "614318117879",
+    "firebase_url": "https://hebelex-2412f.firebaseio.com",
+    "project_id": "hebelex-2412f",
+    "storage_bucket": "hebelex-2412f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614318117879:android:6ce710fedaed4fef",
+        "android_client_info": {
+          "package_name": "com.furkansandal.para.kazanma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614318117879-muh3ggomisb7ec0gn771qu3ojg1jsjj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.furkansandal.para.kazanma",
+            "certificate_hash": "bbd3a0c913c81462312470039dd5c2256a62b833"
+          }
+        },
+        {
+          "client_id": "614318117879-manh8t88c00omtroup0bbga86rilbutl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-mCa1p0euTbFamEt3HdRHzFhe1fvzrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614318117879-manh8t88c00omtroup0bbga86rilbutl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

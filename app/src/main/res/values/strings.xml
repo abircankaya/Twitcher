@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">YOU TTUBE\'TAN PARA KAZANMA REHBERİ</string>
+    <string name="app_desc">YOU TTUBE\'TAN PARA KAZANMA REHBERİ</string>
+    <string name="title_activity_details">Detaylar</string>
+    <string name="action_settings">AYARLAR</string>
+    <string name="desc_splash">YOU TTUBE\'TAN PARA</string>
+    <string name="rate_us">OY VERİN</string>
+    <string name="share_it">BİZİ PAYLAŞIN</string>
+    <string name="improvement">İletişime Geç</string>
+    <string name="rate">OY VER</string>
+    <string name="exit">ÇIKIŞ</string>
+    <string name="description_rate">Sevgilim takipçim bu uygulamayı geliştirip sizlerin yardımlaşması birbirini takip edebileceği aboneleri arttırabileceği yer haline getirmem için desteğiniz gerekiyor. Play Store dan oy verebilirseniz, isteğiniz olduğunu anlayabilir, ekleme ve geliştirme yapabilirim :)</string>
+    <string name="notification_channel_id">default</string>
+
+
+</resources>
