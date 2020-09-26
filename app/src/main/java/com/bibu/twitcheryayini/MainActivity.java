@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 
 public class MainActivity extends Activity {
-	
+	//deneme 123
 	InterstitialAd  mInterstitialAd;
 	AdRequest adRequest;
 	Button start;
