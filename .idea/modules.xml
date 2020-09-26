@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GUIDE_HOWTO_TIPS.iml" filepath="$PROJECT_DIR$/GUIDE_HOWTO_TIPS.iml" group="GUIDE_HOWTO_TIPS" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GUIDE_HOWTO_TIPS/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Twitcher.iml" filepath="$PROJECT_DIR$/.idea/modules/Twitcher.iml" group="Twitcher" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Twitcher/app" />
     </modules>
   </component>
 </project>
