@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini.module;
+package com.bibusoftware.twitcheryayini.module;
 
 public class Item {
 

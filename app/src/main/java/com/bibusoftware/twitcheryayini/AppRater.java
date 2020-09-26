@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini;
+package com.bibusoftware.twitcheryayini;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 
-import com.bibu.twitcheryayini.R;
+import com.bibusoftware.twitcheryayini.R;
 
 
 public class AppRater {

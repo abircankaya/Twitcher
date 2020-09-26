@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini;
+package com.bibusoftware.twitcheryayini;
 
 public class SettingsApp {
 

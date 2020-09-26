@@ -1,9 +1,9 @@
-package com.bibu.twitcheryayini.database;
+package com.bibusoftware.twitcheryayini.database;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bibu.twitcheryayini.module.Item;
+import com.bibusoftware.twitcheryayini.module.Item;
 
 import android.content.Context;
 import android.database.Cursor;

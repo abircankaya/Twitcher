@@ -1,9 +1,9 @@
-package com.bibu.twitcheryayini.config;
+package com.bibusoftware.twitcheryayini.config;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.bibu.twitcheryayini.SettingsApp;
+import com.bibusoftware.twitcheryayini.SettingsApp;
 
 import android.app.Activity;
 import android.widget.LinearLayout;

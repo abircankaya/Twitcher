@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini.adapter;
+package com.bibusoftware.twitcheryayini.adapter;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -11,8 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.List;
 
-import com.bibu.twitcheryayini.R;
-import com.bibu.twitcheryayini.module.Item;
+import com.bibusoftware.twitcheryayini.R;
+import com.bibusoftware.twitcheryayini.module.Item;
 
 public class ListItemAdapter extends BaseAdapter{
 	private Context mContext;

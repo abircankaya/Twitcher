@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini.module;
+package com.bibusoftware.twitcheryayini.module;
 
 import android.webkit.WebView;
 import android.webkit.WebViewClient;

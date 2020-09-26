@@ -1,4 +1,4 @@
-package com.bibu.twitcheryayini;
+package com.bibusoftware.twitcheryayini;
 
 
 import java.io.File;
@@ -8,11 +8,11 @@ import java.io.OutputStream;
 import java.util.List;
 
 
-import com.bibu.twitcheryayini.adapter.ListItemAdapter;
-import com.bibu.twitcheryayini.database.DataBaseHelper;
-import com.bibu.twitcheryayini.module.Item;
-import com.bibu.twitcheryayini.R;
-import com.bibu.twitcheryayini.config.admob;
+import com.bibusoftware.twitcheryayini.adapter.ListItemAdapter;
+import com.bibusoftware.twitcheryayini.database.DataBaseHelper;
+import com.bibusoftware.twitcheryayini.module.Item;
+import com.bibusoftware.twitcheryayini.R;
+import com.bibusoftware.twitcheryayini.config.admob;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bibu.twitcheryayini">
+    package="com.bibusoftware.twitcheryayini">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.bibu.twitcheryayini.MainActivity"
+            android:name="com.bibusoftware.twitcheryayini.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -28,13 +28,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bibu.twitcheryayini.ListViewsItems"
+            android:name="com.bibusoftware.twitcheryayini.ListViewsItems"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
 
         <activity
-            android:name="com.bibu.twitcheryayini.Details"
+            android:name="com.bibusoftware.twitcheryayini.Details"
             android:label="@string/title_activity_details"
             android:screenOrientation="portrait" >
         </activity>
@@ -62,7 +62,7 @@
             android:resource="@color/colorPrimary" />
 
         <service
-            android:name="com.bibu.twitcheryayini.MyFirebaseMessagingService"
+            android:name="com.bibusoftware.twitcheryayini.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>

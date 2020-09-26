@@ -1,9 +1,9 @@
-package com.bibu.twitcheryayini;
+package com.bibusoftware.twitcheryayini;
 
 
-import com.bibu.twitcheryayini.module.ourWebView;
-import com.bibu.twitcheryayini.R;
-import com.bibu.twitcheryayini.config.admob;
+import com.bibusoftware.twitcheryayini.module.ourWebView;
+import com.bibusoftware.twitcheryayini.R;
+import com.bibusoftware.twitcheryayini.config.admob;
 
 import android.support.v7.app.AppCompatActivity;
 import android.app.ActionBar;
