@@ -53,7 +53,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
 
                 .setSmallIcon(R.drawable.bildirim)
-                .setContentTitle("YouTuber Olmaya Hazır Mısınız?")
+                .setContentTitle("Twitch Yayıncısı Olmaya Hazır Mısınız?")
                 .setContentText(messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)

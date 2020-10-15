@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:layout_gravity="center_vertical"
-        android:text="Sefer Furkan Sandal"
+        android:text="Ahmet Bircan Kaya"
         android:fontFamily="sans-serif-light" 
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="16sp"

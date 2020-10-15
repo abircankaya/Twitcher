@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/youtube">
+    android:background="#834AE6">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,9 +18,9 @@
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="225dp"
-            android:adjustViewBounds="true"
             android:layout_height="wrap_content"
-            android:src="@drawable/icon_start"
+            android:adjustViewBounds="true"
+            android:src="@drawable/twlogo2"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="@string/desc_splash"/>
+            android:text="TWITCHER'DAN PARA"/>
         <TextView
             android:id="@+id/textView2"
             android:textSize="20dp"
@@ -44,13 +44,13 @@
 
 	<Button
             android:id="@+id/start"
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@color/menuTextcolor"
             android:text="GİRİŞ"
 	        android:layout_centerHorizontal="true"
 	        android:layout_alignParentBottom="true"
-            android:textColor="@color/youtube"
+            android:textColor="#834AE6"
             android:textSize="20dp"
             android:visibility="invisible" />
     <ProgressBar
