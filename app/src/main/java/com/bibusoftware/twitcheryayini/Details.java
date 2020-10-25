@@ -1,26 +1,31 @@
 package com.bibusoftware.twitcheryayini;
 
 
-import com.bibusoftware.twitcheryayini.module.ourWebView;
-import com.bibusoftware.twitcheryayini.R;
-import com.bibusoftware.twitcheryayini.config.admob;
-
-import android.support.v7.app.AppCompatActivity;
 import android.app.ActionBar;
-import android.os.Bundle;
-import android.view.Menu;
-
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+
+import com.bibusoftware.twitcheryayini.config.admob;
+import com.bibusoftware.twitcheryayini.module.ourWebView;
+
+import java.util.Objects;
+
 public class Details extends AppCompatActivity {
 
 	WebView browser;
 	ActionBar actionBar;
+	@RequiresApi(api = Build.VERSION_CODES.KITKAT)
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
@@ -32,10 +37,13 @@ public class Details extends AppCompatActivity {
         
 		//this.setTitleColor(getResources().getColor(R.color.menuTextcolor));
 		actionBar= this.getActionBar();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        final Drawable upArrow = getResources().getDrawable(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
-        upArrow.setColorFilter(getResources().getColor(R.color.menuTextcolor), PorterDuff.Mode.SRC_ATOP);
+		final Drawable upArrow = ContextCompat.getDrawable(this,  R.drawable.abc_ic_ab_back_material);
+				//ContextCompat.getDrawable(getActivity(), R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        //final Drawable upArrow = getResources().getDrawable(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+		assert upArrow != null;
+		upArrow.setColorFilter(getResources().getColor(R.color.menuTextcolor), PorterDuff.Mode.SRC_ATOP);
         getSupportActionBar().setHomeAsUpIndicator(upArrow);
         this.setTitle(getIntent().getStringExtra("title"));
         
@@ -47,18 +55,16 @@ public class Details extends AppCompatActivity {
 		browser.getSettings().setLoadWithOverviewMode(true);
 		browser.getSettings().setUseWideViewPort(true);
 		browser.setWebViewClient(new ourWebView());
-		
-		final StringBuilder s = new StringBuilder();    
 
-		s.append("<html>");  
-		s.append("<head><meta name='viewport' content='width=device-width, user-scalable=no' >" +
+		String s = "<html>" +
+				"<head><meta name='viewport' content='width=device-width, user-scalable=no' >" +
 				"<style>body {line-height: 170%;}</style>" +
-				"</head>");
-		s.append("<body style='padding-bottom:60px'>");
-		s.append(getIntent().getStringExtra("detail"));
-		s.append("</body>");                            
-		s.append("</html>");
-		browser.loadDataWithBaseURL(null, s.toString(), "text/html", "UTF-8", null);
+				"</head>" +
+				"<body style='padding-bottom:60px'>" +
+				getIntent().getStringExtra("detail") +
+				"</body>" +
+				"</html>";
+		browser.loadDataWithBaseURL(null, s, "text/html", "UTF-8", null);
 
 	}
 
@@ -79,19 +85,16 @@ public class Details extends AppCompatActivity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);*/
-		switch (item.getItemId()) {
-        case android.R.id.home:
-            //Toast.makeText(this, "This is my Toast message!",
-                    //Toast.LENGTH_LONG).show();
+		if (item.getItemId() == android.R.id.home) {//Toast.makeText(this, "This is my Toast message!",
+			//Toast.LENGTH_LONG).show();
             /*Intent intent = new Intent(Details.this, ListViews.class);
             startActivity(intent);*/
-            this.finish();
-        	//finishActivity(0);
-            return true;
-        default:
-            Toast.makeText(this, "Ayarlar geliştirme aşamasında...",
-                    Toast.LENGTH_LONG).show();
-            return super.onOptionsItemSelected(item);
-    }
+			this.finish();
+			//finishActivity(0);
+			return true;
+		}
+		Toast.makeText(this, "Ayarlar geliştirme aşamasında...",
+				Toast.LENGTH_LONG).show();
+		return super.onOptionsItemSelected(item);
 	}
 }

@@ -1,96 +1,37 @@
 {
   "project_info": {
-    "project_number": "703352401169",
-    "firebase_url": "https://testfirebase-5c172.firebaseio.com",
-    "project_id": "testfirebase-5c172",
-    "storage_bucket": "testfirebase-5c172.appspot.com"
+    "project_number": "1068825975578",
+    "firebase_url": "https://twitcher-e9c56.firebaseio.com",
+    "project_id": "twitcher-e9c56",
+    "storage_bucket": "twitcher-e9c56.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:703352401169:android:b48926158a7dcb96",
+        "mobilesdk_app_id": "1:1068825975578:android:4ab4a8bdaa1cf3b8f62aa3",
         "android_client_info": {
           "package_name": "com.bibusoftware.twitcheryayini"
         }
       },
       "oauth_client": [
         {
-          "client_id": "703352401169-8mm2fp88mdrti9bb1km2pggefo2giceu.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.bibusoftware.twitcheryayini",
-            "certificate_hash": "bbd3a0c913c81462312470039dd5c2256a62b833"
-          }
-        },
-        {
-          "client_id": "703352401169-6lkki9e7v8n7nqk2uv3sdflu6eb31u0b.apps.googleusercontent.com",
+          "client_id": "1068825975578-s0ndsofb230buibthos1fo6r12f1cn66.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCC8kE0Xg0sIXIE7Gq5U_xxED5xn_5T21I"
+          "current_key": "AIzaSyDPnHXfnr_o26GS-jXbI5lyLJlRq4Ndcwg"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "703352401169-6lkki9e7v8n7nqk2uv3sdflu6eb31u0b.apps.googleusercontent.com",
+              "client_id": "1068825975578-s0ndsofb230buibthos1fo6r12f1cn66.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:703352401169:android:006e04a4dd11ca39",
-        "android_client_info": {
-          "package_name": "com.bibusoftware.twitcheryayini"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "703352401169-qf1ossallam3qr91r52q5g538pbcs4qf.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.bibusoftware.twitcheryayini",
-            "certificate_hash": "b43a18e3181beda4674dcca41e2b599933c6ab0a"
-          }
-        },
-        {
-          "client_id": "703352401169-6lkki9e7v8n7nqk2uv3sdflu6eb31u0b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCC8kE0Xg0sIXIE7Gq5U_xxED5xn_5T21I"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "703352401169-6lkki9e7v8n7nqk2uv3sdflu6eb31u0b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

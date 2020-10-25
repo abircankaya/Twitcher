@@ -1,13 +1,6 @@
 package com.bibusoftware.twitcheryayini;
 
 
-import com.bibusoftware.twitcheryayini.R;
-import com.bibusoftware.twitcheryayini.database.DataBaseHelper;
-
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,20 +10,33 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.bibusoftware.twitcheryayini.database.DataBaseHelper;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
 public class MainActivity extends Activity {
 
 	InterstitialAd  mInterstitialAd;
-	AdRequest adRequest;
 	Button start;
 	ProgressBar progressBar ;
-	private final int SPLASH_DISPLAY_LENGTH = 7000;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.main_activity);
-		
-		start = (Button) findViewById(R.id.start);
+		MobileAds.initialize(this, new OnInitializationCompleteListener() {
+					@Override
+					public void onInitializationComplete(InitializationStatus initializationStatus) {
+
+					}
+				});
+
+				start = (Button) findViewById(R.id.start);
 		DataBaseHelper.setmDatabase(this);
         AppRater.setAPP_PNAME(this);
 
@@ -47,8 +53,9 @@ public class MainActivity extends Activity {
 		});
 
         requestNewInterstitial();
-		
-        new Handler().postDelayed(new Runnable(){
+
+		int SPLASH_DISPLAY_LENGTH = 7000;
+		new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */

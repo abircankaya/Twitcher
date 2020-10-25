@@ -1,13 +1,12 @@
 package com.bibusoftware.twitcheryayini.config;
 
+import android.app.Activity;
+import android.widget.LinearLayout;
+
+import com.bibusoftware.twitcheryayini.SettingsApp;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.bibusoftware.twitcheryayini.SettingsApp;
-
-import android.app.Activity;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 public class admob {
 	
@@ -25,19 +24,8 @@ public class admob {
         linerlayout.addView(adView);
 
 	}
-	
-	public static void admobBannerCall(Activity acitivty , RelativeLayout relativeLayout){
-		
-        AdView adView = new AdView(acitivty);
-        adView.setAdUnitId(SettingsApp.admBanner);
-        adView.setAdSize(AdSize.SMART_BANNER);
-        AdRequest.Builder builder = new AdRequest.Builder();
-        adView.loadAd(builder.build());
-        relativeLayout.addView(adView);
 
-	}
-	
-	public static String getBannerId(){
+    public static String getBannerId(){
 		return SettingsApp.admBanner;
 	}
 	

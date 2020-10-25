@@ -20,7 +20,8 @@
             android:adjustViewBounds="true"
             android:padding="0dp"
             android:scaleType="fitXY"
-            android:src="@drawable/twstart"/>
+            android:src="@drawable/twstart"
+			android:contentDescription="TODO" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,10 +34,10 @@
                 android:layout_weight="50"
                 android:background="#241823"
                 android:text="@string/rate_us"
-                android:drawableLeft="@drawable/ic_star"
+                android:drawableStart="@drawable/ic_star"
 			    android:drawablePadding="2dip"
-			    android:paddingLeft="30dip"
-			    android:paddingRight="26dip"
+			    android:paddingStart="30dip"
+			    android:paddingEnd="26dip"
 			    android:singleLine="true"
                 android:textColor="@color/menuTextcolor"
                 tools:ignore="ButtonStyle" />
@@ -48,10 +49,10 @@
                 android:layout_weight="50"
                 android:background="#260216"
                 android:text="@string/share_it"
-                android:drawableLeft="@drawable/ic_share"
+                android:drawableStart="@drawable/ic_share"
 			    android:drawablePadding="2dip"
-			    android:paddingLeft="30dip"
-			    android:paddingRight="26dip"
+			    android:paddingStart="30dip"
+			    android:paddingEnd="26dip"
 			    android:singleLine="true"                
                 android:textColor="@color/menuTextcolor"
                 tools:ignore="ButtonStyle" />

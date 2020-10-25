@@ -13,7 +13,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DataBaseHelper extends SQLiteOpenHelper {
     public static final String DBNAME = "db.sqlite";
     public static String DBLOCATION ;
-    private Context mContext;
+    private final Context mContext;
     private SQLiteDatabase mDatabase;
 
     public DataBaseHelper(Context context) {

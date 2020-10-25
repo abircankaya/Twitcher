@@ -15,8 +15,8 @@ import com.bibusoftware.twitcheryayini.R;
 import com.bibusoftware.twitcheryayini.module.Item;
 
 public class ListItemAdapter extends BaseAdapter{
-	private Context mContext;
-    private List<Item> mItemList;
+	private final Context mContext;
+    private final List<Item> mItemList;
     Typeface type1 ,type2 ; 
 
     public ListItemAdapter(Context mContext, List<Item> mItemList) {
