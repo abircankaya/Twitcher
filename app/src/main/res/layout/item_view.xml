@@ -17,7 +17,9 @@
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/icon"
-        android:layout_weight="12"/>
+        android:layout_weight="12"
+        android:contentDescription="@string/todo"
+        android:layout_marginLeft="6dp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -25,22 +27,12 @@
         android:layout_height="wrap_content"
         android:paddingStart="10dp"
         android:layout_gravity="center_vertical"
-        android:text="Ahmet Bircan Kaya"
+        android:text="@string/ahmet_bircan_kaya"
         android:fontFamily="sans-serif-light" 
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_weight="75"/>
-    
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
-        android:textSize="20sp"
-        android:layout_gravity="center_vertical"
-        android:text=">"
-        android:layout_weight="5" 
-        android:alpha="0.4" />
+        android:layout_weight="75"
+        android:paddingLeft="10dp" />
 
 </LinearLayout>

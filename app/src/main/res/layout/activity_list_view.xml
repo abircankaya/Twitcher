@@ -40,7 +40,10 @@
 			    android:paddingEnd="26dip"
 			    android:singleLine="true"
                 android:textColor="@color/menuTextcolor"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+				android:drawableLeft="@drawable/ic_star"
+				android:paddingLeft="30dip"
+				android:paddingRight="26dip" />
 
             <Button
                 android:id="@+id/play2"
@@ -55,7 +58,10 @@
 			    android:paddingEnd="26dip"
 			    android:singleLine="true"                
                 android:textColor="@color/menuTextcolor"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+				android:drawableLeft="@drawable/ic_share"
+				android:paddingLeft="30dip"
+				android:paddingRight="26dip" />
         </LinearLayout>
 
         <ListView

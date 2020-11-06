@@ -13,6 +13,8 @@
     <string name="exit">ÇIKIS</string>
     <string name="description_rate">Sevgilim takipçim bu uygulamayı geliştirip sizlerin yardımlaşması birbirini takip edebileceği aboneleri arttırabileceği yer haline getirmem için desteğiniz gerekiyor. Play Store dan oy verebilirseniz, isteğiniz olduğunu anlayabilir, ekleme ve geliştirme yapabilirim :)</string>
     <string name="notification_channel_id">default</string>
+    <string name="todo">TODO</string>
+    <string name="ahmet_bircan_kaya">Ahmet Bircan Kaya</string>
 
 
 </resources>
