@@ -17,13 +17,12 @@ import com.bibusoftware.twitcheryayini.module.Item;
 public class ListItemAdapter extends BaseAdapter{
 	private final Context mContext;
     private final List<Item> mItemList;
-    Typeface type1 ,type2 ; 
+
 
     public ListItemAdapter(Context mContext, List<Item> mItemList) {
         this.mContext = mContext;
         this.mItemList = mItemList;
-        type1 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
-        type2 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
+
     }
 
     @Override
@@ -44,7 +43,9 @@ public class ListItemAdapter extends BaseAdapter{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-    	View v  = convertView;
+
+        View v  = convertView;
+
 	if(v==null){
 		LayoutInflater inflater = (LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		v = inflater.inflate(R.layout.item_view, parent, false);
@@ -57,18 +58,29 @@ public class ListItemAdapter extends BaseAdapter{
 	ImageView img = (ImageView) v.findViewById(R.id.imageView1);
 	String uri = "@drawable/"+mItemList.get(position).getIcon();  
 	int imageResource = mContext.getResources().getIdentifier(uri, null, mContext.getPackageName());
-	Drawable res = mContext.getResources().getDrawable(imageResource);
-	img.setImageDrawable(res);
+	//Drawable res = mContext.getResources().getDrawable(imageResource);
+	Drawable image = mContext.getResources().getDrawable(R.drawable.twstart);
+	img.setImageDrawable(image);
 	// fill  title
-	TextView txv = (TextView) v.findViewById(R.id.textView1) ;
-	txv.setTypeface(type2);
-	txv.setText(mItemList.get(position).getTitle().trim());
-	// fill distance
-	
-	
-	((TextView) v.findViewById(R.id.textView2)).setTypeface(type1);
+
+        TextView txv = (TextView) v.findViewById(R.id.textView1) ;
+        //txv.setTypeface(type2);
+        txv.setText(mItemList.get(position).getTitle().trim());
 	v.setPadding(0, 5, 0, 5);
-	
+
+	    //Typeface type1 ,type2 ;
+
+        //type1 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
+        //type2 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
+
+        // fill distance
+
+
+       // TextView txv2 = (TextView) v.findViewById(R.id.textView2);
+       // txv2.setTypeface(type1);
+
+
+
 	return v;
     }
     
