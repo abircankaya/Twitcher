@@ -22,8 +22,8 @@ public class ListItemAdapter extends BaseAdapter{
     public ListItemAdapter(Context mContext, List<Item> mItemList) {
         this.mContext = mContext;
         this.mItemList = mItemList;
-        type1 = Typeface.createFromAsset(mContext.getAssets(),"fonts/HelveticaNeueLTStd-Lt.otf"); 
-        Typeface type2 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf"); 
+        type1 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
+        type2 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Roboto-Bold.ttf");
     }
 
     @Override
