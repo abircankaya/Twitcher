@@ -12,13 +12,13 @@ public class admob {
 	
 
 	public static int nbShowInterstitial = 1;
-	public static int mCount = 0;
+	public static int mCount = 1;
 	
 	public static void admobBannerCall(Activity acitivty , LinearLayout linerlayout){
 		
         AdView adView = new AdView(acitivty);
         adView.setAdUnitId(SettingsApp.admBanner);
-        adView.setAdSize(AdSize.SMART_BANNER);
+        adView.setAdSize(AdSize.BANNER);
         AdRequest.Builder builder = new AdRequest.Builder();
         adView.loadAd(builder.build());
         linerlayout.addView(adView);
