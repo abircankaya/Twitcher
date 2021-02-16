@@ -3,11 +3,10 @@
     package="com.bibusoftware.twitcheryayini">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RESTART_PACKAGES" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
 
 
     <application
@@ -22,10 +21,10 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true"/>
 
-        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- Sample AdMob App ID: ca-app-pub-2975282374867849~5915546207 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5887014071489093~7620790409"/>
+            android:value="ca-app-pub-2975282374867849~5915546207"/>
         <activity
             android:name="com.bibusoftware.twitcheryayini.MainActivity"
             android:label="@string/app_name"

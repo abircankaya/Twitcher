@@ -102,7 +102,7 @@ public class ListViewsItems extends Activity {
 	private void ShareApp(){
 		Intent sharingIntent = new Intent(Intent.ACTION_SEND);
 		sharingIntent.setType("text/plain");
-		String shareBody = "Hey bu oyunu denemeye ne dersin :)\n https://play.google.com/store/apps/details?id="+ getPackageName() +" \n";
+		String shareBody = "Hey! bu uygulamayı denemeye ne dersin? :)\n https://play.google.com/store/apps/details?id="+ getPackageName() +" \n";
 		sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject Here");
 		sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
 		startActivity(Intent.createChooser(sharingIntent, "Şununla Paylaş"));
