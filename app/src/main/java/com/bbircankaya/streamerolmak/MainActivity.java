@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 
 import android.app.Activity;
@@ -10,7 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.bibusoftware.twitcheryayini.database.DataBaseHelper;
+import com.bbircankaya.streamerolmak.database.DataBaseHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;

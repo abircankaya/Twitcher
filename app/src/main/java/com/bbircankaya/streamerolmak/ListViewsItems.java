@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 
 import android.app.Activity;
@@ -14,10 +14,10 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.bibusoftware.twitcheryayini.adapter.ListItemAdapter;
-import com.bibusoftware.twitcheryayini.config.admob;
-import com.bibusoftware.twitcheryayini.database.DataBaseHelper;
-import com.bibusoftware.twitcheryayini.module.Item;
+import com.bbircankaya.streamerolmak.adapter.ListItemAdapter;
+import com.bbircankaya.streamerolmak.config.admob;
+import com.bbircankaya.streamerolmak.database.DataBaseHelper;
+import com.bbircankaya.streamerolmak.module.Item;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
@@ -157,7 +157,7 @@ public class ListViewsItems extends Activity {
     				if(admob.mCount == admob.nbShowInterstitial) {
     					if (mInterstitialAd.isLoaded()) 
     						mInterstitialAd.show();
-    						admob.mCount=0;
+    						admob.mCount=1;
     				}
     				++admob.mCount;
     			} catch (Exception e) {

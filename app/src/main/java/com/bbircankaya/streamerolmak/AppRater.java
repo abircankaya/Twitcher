@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 
-import com.bibusoftware.twitcheryayini.R;
+import com.bbircankaya.streamerolmak.R;
 
 
 public class AppRater {

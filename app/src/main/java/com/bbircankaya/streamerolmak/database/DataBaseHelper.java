@@ -1,9 +1,9 @@
-package com.bibusoftware.twitcheryayini.database;
+package com.bbircankaya.streamerolmak.database;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bibusoftware.twitcheryayini.module.Item;
+import com.bbircankaya.streamerolmak.module.Item;
 
 import android.content.Context;
 import android.database.Cursor;

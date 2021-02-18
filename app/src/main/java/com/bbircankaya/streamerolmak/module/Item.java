@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini.module;
+package com.bbircankaya.streamerolmak.module;
 
 public class Item {
 

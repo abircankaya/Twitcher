@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 public class SettingsApp {
 

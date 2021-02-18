@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;

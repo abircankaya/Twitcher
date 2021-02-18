@@ -1,9 +1,9 @@
-package com.bibusoftware.twitcheryayini.config;
+package com.bbircankaya.streamerolmak.config;
 
 import android.app.Activity;
 import android.widget.LinearLayout;
 
-import com.bibusoftware.twitcheryayini.SettingsApp;
+import com.bbircankaya.streamerolmak.SettingsApp;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;

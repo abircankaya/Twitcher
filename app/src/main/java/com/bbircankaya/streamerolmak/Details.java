@@ -1,4 +1,4 @@
-package com.bibusoftware.twitcheryayini;
+package com.bbircankaya.streamerolmak;
 
 
 import android.app.ActionBar;
@@ -16,8 +16,8 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.bibusoftware.twitcheryayini.config.admob;
-import com.bibusoftware.twitcheryayini.module.ourWebView;
+import com.bbircankaya.streamerolmak.config.admob;
+import com.bbircankaya.streamerolmak.module.ourWebView;
 
 import java.util.Objects;
 
